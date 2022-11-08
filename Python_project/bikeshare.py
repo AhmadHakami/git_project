@@ -95,7 +95,6 @@ def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
     # TO DO: display the most common month
-
     popular_month = df['month'].mode()[0]
     print('Most Common Month:', popular_month)
 
