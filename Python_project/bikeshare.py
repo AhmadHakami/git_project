@@ -201,7 +201,7 @@ def main():
         more_data = input('\nWould you like to view 5 lines of the selected raw data? Enter Yes or No.\n').title()
         answers = ['Yes', 'No']
         while more_data.title() not in answers:
-            print('Sorry, I didn\'t catch that. Try Again. \n')
+            print('Sorry, I can\'t catch that. Try Again. \n')
             more_data = input('\nWould you like to view 5 lines of the selected raw data? Enter Yes if you want or type anything to exit.\n').title()
             break
 
@@ -215,7 +215,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter Yes or No.\n').title()
         if restart != 'Yes':
-            print('Good Bye!')
+            print('Goodbye!')
             break
 
 if __name__ == '__main__':
